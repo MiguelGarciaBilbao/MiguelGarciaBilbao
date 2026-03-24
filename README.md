@@ -1,7 +1,3 @@
-
-
-
-
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hola!&height=200)
 
 # 👋 Hola, soy [Miguel Garcia]
@@ -15,8 +11,8 @@
 
 ## 📊 Mis estadísticas
 [cards de github-readme-stats]
-![Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=MiguelGarciaBilbao&show_icons=true&theme=dark)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MiguelGarciaBilbao&layout=compact)
 ![Streak](https://streak-stats.demolab.com?user=MiguelGarciaBilbao&theme=dark)
 
 
