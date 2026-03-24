@@ -1,16 +1,24 @@
-## Hi there 👋
 
-<!--
-**MiguelGarciaBilbao/MiguelGarciaBilbao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+![Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Streak](https://streak-stats.demolab.com?user=TU_USUARIO&theme=dark)
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hola!&height=200)
+
+# 👋 Hola, soy [Miguel Garcia]
+
+> Desarrollador frontend especializado en Angular
+
+## 🛠️ Tecnologías
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+
+## 📊 Mis estadísticas
+[cards de github-readme-stats]
+
+
+## 📫 Contacto
+[LinkedIn] · [email] · [portfolio]
