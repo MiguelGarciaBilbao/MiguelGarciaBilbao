@@ -17,4 +17,13 @@
 
 
 ## 📫 Contacto
-[LinkedIn] · [email] · [portfolio]
+
+<div align="center">
+  <a href="https://linkedin.com/in/miguelgarciabilbao">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:miguel99bilbao@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
