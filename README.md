@@ -1,9 +1,6 @@
 
 
-![Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact)
 
-![Streak](https://streak-stats.demolab.com?user=TU_USUARIO&theme=dark)
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Hola!&height=200)
 
@@ -18,6 +15,9 @@
 
 ## 📊 Mis estadísticas
 [cards de github-readme-stats]
+![Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact)
+![Streak](https://streak-stats.demolab.com?user=MiguelGarciaBilbao&theme=dark)
 
 
 ## 📫 Contacto
