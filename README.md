@@ -3,7 +3,7 @@
      Miguel García Bilbao · Senior Frontend Engineer
      ═══════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D95,50:9D4EDD,100:22FFEE&height=220&section=header&text=MIGUEL%20GARCIA&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=%3C%20Senior%20Frontend%20Engineer%20%2F%2F%20Angular%20Specialist%20%2F%3E&descSize=16&descAlignY=53" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D95,50:9D4EDD,100:22FFEE&height=220&section=header&text=MIGUEL%20GARCIA&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=%5B%20Senior%20Frontend%20Engineer%20%2F%2F%20Angular%20Specialist%20%5D&descSize=16&descAlignY=53" width="100%" />
 
 <div align="center">
 
