@@ -18,8 +18,8 @@ const F = {
 
 const C = {
   ground: '#2438C9',
-  band90: '#3149D8',
-  band50: '#4059E6',
+  band90: '#3B54E4',
+  band50: '#566EF3',
   ink: '#FFFFFF',
   soft: '#C9D2FF',
   axis: '#7F8FF2',
@@ -109,8 +109,8 @@ function build(o) {
     }
     out.push(`<polygon fill="${fill}" points="${up.join(' ')} ${down.join(' ')}"/>`);
   };
-  band(0.2, C.band90);
-  band(0.09, C.band50);
+  band(0.3, C.band90);
+  band(0.13, C.band50);
 
   // Axis and year ticks.
   out.push(`<path d="M${o.x0} ${o.axis}H${o.W}" stroke="${C.axis}" stroke-width="1"/>`);
@@ -118,7 +118,7 @@ function build(o) {
     const x = r1(X(yr));
     out.push(`<path d="M${x} ${o.axis}v5" stroke="${C.axis}" stroke-width="1"/>`);
     if (!o.everyOtherYear || yr % 2 === 0) {
-      text(String(yr), x, o.axis + 20, F.m4, o.tick, yr > 2026 ? C.axis : C.soft, 'middle');
+      text(String(yr), x, o.axis + 20, F.m4, o.tick, C.soft, 'middle');
     }
   }
 
@@ -154,7 +154,11 @@ function build(o) {
     out.push(`<circle cx="${x}" cy="${y}" r="5" fill="${C.ground}" stroke="${C.ink}" stroke-width="2"/>`);
     return [x, y];
   };
-  dot(T.start);
+  const [xs, ys] = dot(T.start);
+  text('Oct 2021', xs + 12, ys + 20, F.m4, o.tick, C.soft);
+  out.push(`<g transform="rotate(-90 ${o.x0 - 12} ${o.base - o.scale / 2})">`);
+  text('scope, illustrative', o.x0 - 12, o.base - o.scale / 2 + 4, F.m4, 11, C.soft, 'middle');
+  out.push('</g>');
   const [xn, yn] = [r1(X(T.nettrim)), r1(Y(valueAt(T.nettrim)))];
   out.push(`<path d="M${xn} ${yn - 8}V${o.ragStemTop}" stroke="${C.soft}" stroke-width="1"/>`);
   dot(T.nettrim);
@@ -206,7 +210,7 @@ const legendRow = (ctx, x, y, size, kind, label, anchorRight) => {
 
 const desktop = build({
   W: 880, H: 460, radius: 14,
-  x0: 36, pxYear: 118, base: 348, scale: 190, axis: 358,
+  x0: 36, pxYear: 104, base: 348, scale: 190, axis: 358,
   tick: 12, trace: 2.5,
   row1: 392, row2: 418, barH: 20, barText: 11,
   softecaLabel: 'Softeca', mscLabel: 'MSc AI', barsOutside: false,
@@ -217,23 +221,24 @@ const desktop = build({
     ['Senior Software Engineer · full stack & applied AI', 37, 111, 's4', 17.5, C.soft],
   ],
   notes: ({ X, xn, xNow }) => [
-    ['Full stack, then Technical Lead', X(2022.72), 222, 's5', 14.5, C.ink],
-    ['Team of 5 · 8-module legacy migration', X(2022.72), 241, 's4', 13, C.soft],
+    ['Full stack, then Technical Lead', X(2022.6), 222, 's5', 14.5, C.ink],
+    ['Team of 5 · 8-module legacy migration', X(2022.6), 241, 's4', 13, C.soft],
     ['RAG in production', xn - 9, 172, 's5', 14.5, C.ink, 'end'],
     ['Python · embeddings · Amazon Bedrock', xn - 9, 191, 's4', 13, C.soft, 'end'],
     ['Open to applied AI', xNow + 22, 268, 's6', 16, C.ink],
-    ['and frontend roles', xNow + 22, 289, 's6', 16, C.ink],
+    ['and senior frontend roles', xNow + 22, 289, 's6', 16, C.ink],
   ],
   legend: (ctx) => {
-    legendRow(ctx, 844, 58, 12, 'obs', 'observed', true);
-    legendRow(ctx, 844, 79, 12, 'med', 'forecast, median', true);
-    legendRow(ctx, 844, 100, 12, 'band', '50% and 90% intervals', true);
+    let x = 37;
+    x += legendRow(ctx, x, 142, 12, 'obs', 'observed') + 22;
+    x += legendRow(ctx, x, 142, 12, 'med', 'forecast, median') + 22;
+    legendRow(ctx, x, 142, 12, 'band', '50% and 90% intervals');
   },
 });
 
 const mobile = build({
   W: 440, H: 560, radius: 14,
-  x0: 22, pxYear: 58, base: 436, scale: 215, axis: 446,
+  x0: 22, pxYear: 52, base: 436, scale: 215, axis: 446,
   tick: 12, trace: 2.5, everyOtherYear: true,
   row1: 482, row2: 510, barH: 22, barText: 12,
   softecaLabel: 'Softeca', mscLabel: 'MSc AI', barsOutside: true,
@@ -249,9 +254,10 @@ const mobile = build({
     ['Technical Lead', X(2022.3), 305, 's5', 14.5, C.ink],
     ['RAG in', xn - 9, 222, 's5', 14.5, C.ink, 'end'],
     ['production', xn - 9, 241, 's5', 14.5, C.ink, 'end'],
-    ['Open to', xNow + 14, 372, 's6', 15, C.ink],
-    ['applied AI', xNow + 14, 392, 's6', 15, C.ink],
-    ['roles', xNow + 14, 412, 's6', 15, C.ink],
+    ['Open to', xNow + 14, 356, 's6', 15, C.ink],
+    ['applied AI', xNow + 14, 376, 's6', 15, C.ink],
+    ['and senior', xNow + 14, 396, 's6', 15, C.ink],
+    ['frontend roles', xNow + 14, 416, 's6', 15, C.ink],
   ],
   legend: (ctx) => {
     let x = 22;

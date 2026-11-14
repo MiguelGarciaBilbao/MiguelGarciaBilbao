@@ -16,24 +16,19 @@ Open to applied AI and senior frontend roles. Based in Burgos, Spain, working re
 ## Selected work
 
 **[RAG pipeline for ESG consulting](https://miguel-garcia-bilbao.vercel.app/en/projects/rag-esg)** &nbsp;·&nbsp; nettrim technology, 2026<br>
-The retrieval pipeline behind an ESG consulting platform: document corpus, embeddings, vector layer and LLM answers on Amazon Bedrock. The corpus is enriched with OSINT, and every generated report feeds back into it.<br>
-`Python` `RAG` `embeddings` `Amazon Bedrock` `Hugging Face`
+The retrieval pipeline behind an ESG consulting platform: document corpus, embeddings, vector layer and LLM answers on Amazon Bedrock. The corpus is enriched with OSINT, and every generated report feeds back into it. Built in Python with Hugging Face models.
 
 **[Glucose and hypoglycaemia forecasting in type 1 diabetes](https://miguel-garcia-bilbao.vercel.app/en/projects/tfm-hipoglucemia)** &nbsp;·&nbsp; MSc thesis, UAX, 2026<br>
-A global probabilistic model that predicts continuous glucose readings 30 and 60 minutes ahead on the OhioT1DM dataset, with a mean and a variance per horizon, and raises an early alarm when P(glucose &lt; 70 mg/dL) crosses a threshold. Validated externally on HUPA-UCM.<br>
-`Python` `PyTorch` `time series` `probabilistic forecasting`
+A global probabilistic model that predicts continuous glucose readings 30 and 60 minutes ahead on the OhioT1DM dataset, with a mean and a variance per horizon, and raises an early alarm when P(glucose &lt; 70 mg/dL) crosses a threshold. Validated externally on HUPA-UCM. Built in Python and PyTorch.
 
 **Jarvis** &nbsp;·&nbsp; personal project, private repository<br>
-A desktop companion backed by a fully local agent: a local language model, no cloud AI account, and long-term memory kept in an Obsidian vault.<br>
-`Electron` `TypeScript` `local LLM` `agent memory`
+A desktop companion backed by a fully local agent: a local language model, no cloud AI account, and long-term memory kept in an Obsidian vault. Built with Electron and TypeScript.
 
 **MetroDirect** &nbsp;·&nbsp; personal project, private repository<br>
-A mobile-first PWA for the Valencia metro network: live train positions, a search that works out transfers, and its own design system.<br>
-`TypeScript` `PWA` `real-time data`
+A mobile-first PWA for the Valencia metro network: live train positions, a search that works out transfers, and its own design system. Built in TypeScript.
 
 **[Portfolio](https://github.com/MiguelGarciaBilbao/portfolio)** &nbsp;·&nbsp; public repository<br>
-The site linked above. My experience indexed as a WebGL point cloud you can query, with static SVG fallbacks for every 3D scene.<br>
-`Next.js 16` `React Three Fiber` `TypeScript`
+The site linked above. My experience indexed as a WebGL point cloud you can query, with static SVG fallbacks for every 3D scene. Built with Next.js 16 and React Three Fiber.
 
 ## Stack
 
