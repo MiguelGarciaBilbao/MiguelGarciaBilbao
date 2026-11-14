@@ -1,120 +1,76 @@
-<!-- ═══════════════════════════════════════════════════════════════
-     ██████╗ ██╗   ██╗██████╗ ███████╗██████╗ ██████╗ ██╗   ██╗███╗   ██╗██╗  ██╗
-     Miguel García Bilbao · Senior Frontend Engineer
-     ═══════════════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D95,50:9D4EDD,100:22FFEE&height=220&section=header&text=MIGUEL%20GARCIA&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=%5B%20Senior%20Frontend%20Engineer%20%2F%2F%20Angular%20Specialist%20%5D&descSize=16&descAlignY=53" width="100%" />
-
-<div align="center">
-
-<img src="./assets/miguel-pixel.png" width="200" alt="Miguel en 8 bits" />
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=15&duration=3000&pause=800&color=22FFEE&center=true&vCenter=true&width=700&height=90&lines=%3E+Angular+desde+las+versiones+legacy+hasta+la+v20;%3E+Signals+%2F+Standalone+%2F+SSR;%3E+Full+stack+cuando+hace+falta+bajar+al+backend" />
-
-<br>
-
-<img src="https://img.shields.io/badge/BURGOS-0D0117?style=for-the-badge&logo=googlemaps&logoColor=FF2D95&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/REMOTE-0D0117?style=for-the-badge&logo=protondrive&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://komarev.com/ghpvc/?username=MiguelGarciaBilbao&style=for-the-badge&color=FF2D95&label=VISITAS" />
-
-</div>
-
----
-
-## `> whoami`
-
-```ts
-const miguel: Developer = {
-  role:      'Senior Frontend Engineer @ nettrim technology',
-  location:  'Burgos, España  ·  remoto',
-  focus:     ['Angular', 'TypeScript', 'Arquitectura frontend', 'DX'],
-  learning:  'Máster en Inteligencia Artificial (UAX)',
-  motto:     'Si se puede tipar, se tipa.',
-};
-```
-
-<br>
-
-## `> stack --list`
-
-<div align="center">
-
-### ▚ Core
-
-<img src="https://img.shields.io/badge/Angular-0D0117?style=for-the-badge&logo=angular&logoColor=FF2D95&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/TypeScript-0D0117?style=for-the-badge&logo=typescript&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/RxJS-0D0117?style=for-the-badge&logo=reactivex&logoColor=FF2D95&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/HTML5-0D0117?style=for-the-badge&logo=html5&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/CSS3-0D0117?style=for-the-badge&logo=css3&logoColor=FF2D95&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Sass-0D0117?style=for-the-badge&logo=sass&logoColor=22FFEE&labelColor=0D0117" />
-
-### ▚ Backend
-
-<img src="https://img.shields.io/badge/.NET-0D0117?style=for-the-badge&logo=dotnet&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Spring-0D0117?style=for-the-badge&logo=spring&logoColor=FF2D95&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Node.js-0D0117?style=for-the-badge&logo=nodedotjs&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Python-0D0117?style=for-the-badge&logo=python&logoColor=FF2D95&labelColor=0D0117" />
-
-### ▚ Tooling
-
-<img src="https://img.shields.io/badge/Git-0D0117?style=for-the-badge&logo=git&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Docker-0D0117?style=for-the-badge&logo=docker&logoColor=FF2D95&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Figma-0D0117?style=for-the-badge&logo=figma&logoColor=22FFEE&labelColor=0D0117" />
-<img src="https://img.shields.io/badge/Vite-0D0117?style=for-the-badge&logo=vite&logoColor=FF2D95&labelColor=0D0117" />
-
-</div>
-
-<br>
-
-## `> stats --neon`
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=MiguelGarciaBilbao&show_icons=true&hide_border=false&border_color=9D4EDD&bg_color=0D0117&title_color=FF2D95&icon_color=22FFEE&text_color=E0D9FF&border_radius=6&include_all_commits=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MiguelGarciaBilbao&layout=compact&langs_count=8&hide_border=false&border_color=9D4EDD&bg_color=0D0117&title_color=FF2D95&text_color=E0D9FF&border_radius=6" />
-
-<br><br>
-
-<img height="165" src="https://streak-stats.demolab.com?user=MiguelGarciaBilbao&background=0D0117&border=9D4EDD&stroke=9D4EDD&ring=FF2D95&fire=FF2D95&currStreakLabel=22FFEE&sideLabels=E0D9FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B7FB8&border_radius=6" />
-
-<br><br>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=MiguelGarciaBilbao&bg_color=0D0117&color=22FFEE&line=FF2D95&point=E0D9FF&area=true&area_color=9D4EDD&hide_border=false&border_color=9D4EDD&radius=6" />
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=MiguelGarciaBilbao&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=8" />
-
-</div>
-
-<br>
-
-## `> connect --uplink`
-
-<div align="center">
-
-<a href="https://linkedin.com/in/miguelgarciabilbao">
-  <img src="https://img.shields.io/badge/LinkedIn-0D0117?style=for-the-badge&logo=linkedin&logoColor=22FFEE&labelColor=0D0117" />
-</a>
-&nbsp;
-<a href="mailto:miguel99bilbao@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0D0117?style=for-the-badge&logo=gmail&logoColor=FF2D95&labelColor=0D0117" />
-</a>
-&nbsp;
-<a href="https://github.com/MiguelGarciaBilbao">
-  <img src="https://img.shields.io/badge/GitHub-0D0117?style=for-the-badge&logo=github&logoColor=22FFEE&labelColor=0D0117" />
+<a href="https://miguel-garcia-bilbao.vercel.app/en">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+    <img src="assets/hero.svg" width="100%" alt="Miguel García Bilbao, Senior Software Engineer, full stack and applied AI. A career drawn as a forecast plot: Softeca from 2021 (full stack, then Technical Lead of a team of 5), nettrim from February 2026 with a RAG pipeline in production, an MSc in Artificial Intelligence at UAX in 2026, and a forecast pointing at applied AI and senior frontend roles.">
+  </picture>
 </a>
 
-<br><br>
+<sub>Illustrative figure: my career drawn the way my MSc thesis draws glucose forecasts, an observed trace followed by a probabilistic forecast.</sub>
 
-```
-╔══════════════════════════════════════════════════════════╗
-║   " El mejor código es el que no hay que explicar. "     ║
-╚══════════════════════════════════════════════════════════╝
-```
+**I build AI systems and the products around them.** Five years shipping Angular, .NET and Java applications to production, and now the retrieval pipelines and forecasting models behind them too. I work on nettrim's Data Intelligence Hub and hold an MSc in Artificial Intelligence from UAX (2026).
 
-</div>
+Open to applied AI and senior frontend roles. Based in Burgos, Spain, working remotely.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22FFEE,50:9D4EDD,100:FF2D95&height=140&section=footer" width="100%" />
+**[Portfolio](https://miguel-garcia-bilbao.vercel.app/en)** &nbsp;·&nbsp; [CV (PDF)](https://miguel-garcia-bilbao.vercel.app/cv/miguel-garcia-bilbao-en.pdf) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/miguelgarciabilbao) &nbsp;·&nbsp; [miguel99bilbao@gmail.com](mailto:miguel99bilbao@gmail.com)
+
+## Selected work
+
+**[RAG pipeline for ESG consulting](https://miguel-garcia-bilbao.vercel.app/en/projects/rag-esg)** &nbsp;·&nbsp; nettrim technology, 2026<br>
+The retrieval pipeline behind an ESG consulting platform: document corpus, embeddings, vector layer and LLM answers on Amazon Bedrock. The corpus is enriched with OSINT, and every generated report feeds back into it.<br>
+`Python` `RAG` `embeddings` `Amazon Bedrock` `Hugging Face`
+
+**[Glucose and hypoglycaemia forecasting in type 1 diabetes](https://miguel-garcia-bilbao.vercel.app/en/projects/tfm-hipoglucemia)** &nbsp;·&nbsp; MSc thesis, UAX, 2026<br>
+A global probabilistic model that predicts continuous glucose readings 30 and 60 minutes ahead on the OhioT1DM dataset, with a mean and a variance per horizon, and raises an early alarm when P(glucose &lt; 70 mg/dL) crosses a threshold. Validated externally on HUPA-UCM.<br>
+`Python` `PyTorch` `time series` `probabilistic forecasting`
+
+**Jarvis** &nbsp;·&nbsp; personal project, private repository<br>
+A desktop companion backed by a fully local agent: a local language model, no cloud AI account, and long-term memory kept in an Obsidian vault.<br>
+`Electron` `TypeScript` `local LLM` `agent memory`
+
+**MetroDirect** &nbsp;·&nbsp; personal project, private repository<br>
+A mobile-first PWA for the Valencia metro network: live train positions, a search that works out transfers, and its own design system.<br>
+`TypeScript` `PWA` `real-time data`
+
+**[Portfolio](https://github.com/MiguelGarciaBilbao/portfolio)** &nbsp;·&nbsp; public repository<br>
+The site linked above. My experience indexed as a WebGL point cloud you can query, with static SVG fallbacks for every 3D scene.<br>
+`Next.js 16` `React Three Fiber` `TypeScript`
+
+## Stack
+
+<table>
+  <tr>
+    <td><b>Applied&nbsp;AI</b></td>
+    <td>Python, RAG, embeddings, vector search, Amazon Bedrock, Hugging Face, PyTorch, time-series forecasting</td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>Angular (2 to v20), TypeScript, Signals, RxJS, NgRx, Signal Stores, Web Components, SSR</td>
+  </tr>
+  <tr>
+    <td><b>Backend&nbsp;and&nbsp;cloud</b></td>
+    <td>.NET / C#, Java (Spring), Node.js, PostgreSQL, SQL Server, AWS (Bedrock, S3, ECS), Azure, Docker, CI/CD</td>
+  </tr>
+</table>
+
+## Background
+
+<table>
+  <tr>
+    <td><code>2026</code></td>
+    <td><b>MSc in Artificial Intelligence</b>, Universidad Alfonso X el Sabio (UAX)</td>
+  </tr>
+  <tr>
+    <td><code>2026–now</code></td>
+    <td><b>Senior Frontend Engineer</b>, nettrim technology. Data Intelligence Hub: applied AI for ESG data, frontend architecture in Angular.</td>
+  </tr>
+  <tr>
+    <td><code>2021–2026</code></td>
+    <td><b>Software Engineer and Technical Lead</b>, Softeca. Led a team of 5 and the migration of an 8-module legacy system to .NET and Angular, cutting incidents and turnaround times by 30%.</td>
+  </tr>
+  <tr>
+    <td><code>2017–2021</code></td>
+    <td><b>BSc in Computer Engineering</b>, Universidad de Burgos (UBU)</td>
+  </tr>
+</table>
+
+Email is the fastest way to reach me: [miguel99bilbao@gmail.com](mailto:miguel99bilbao@gmail.com)
