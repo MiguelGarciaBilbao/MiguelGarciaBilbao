@@ -214,7 +214,7 @@ const desktop = build({
   tick: 12, trace: 2.5,
   row1: 392, row2: 418, barH: 20, barText: 11,
   softecaLabel: 'Softeca', mscLabel: 'MSc AI', barsOutside: false,
-  nowTop: 138, nowLabel: 'now · Nov 2026',
+  nowTop: 150, nowLabel: 'now · Nov 2026',
   ragStemTop: 170,
   title: [
     ['Miguel García Bilbao', 36, 80, 's6', 42, C.ink],
@@ -262,7 +262,8 @@ const mobile = build({
   legend: (ctx) => {
     let x = 22;
     x += legendRow(ctx, x, 150, 12, 'obs', 'observed') + 18;
-    legendRow(ctx, x, 150, 12, 'med', 'forecast');
+    x += legendRow(ctx, x, 150, 12, 'med', 'forecast') + 18;
+    legendRow(ctx, x, 150, 12, 'band', '50% and 90%');
   },
 });
 
