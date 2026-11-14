@@ -55,15 +55,15 @@ The site linked above. My experience indexed as a WebGL point cloud you can quer
     <td><b>MSc in Artificial Intelligence</b>, Universidad Alfonso X el Sabio (UAX)</td>
   </tr>
   <tr>
-    <td><code>2026–now</code></td>
+    <td><code>2026–&#8288;now</code></td>
     <td><b>Senior Frontend Engineer</b>, nettrim technology. Data Intelligence Hub: applied AI for ESG data, frontend architecture in Angular.</td>
   </tr>
   <tr>
-    <td><code>2021–2026</code></td>
+    <td><code>2021–&#8288;2026</code></td>
     <td><b>Software Engineer and Technical Lead</b>, Softeca. Led a team of 5 and the migration of an 8-module legacy system to .NET and Angular, cutting incidents and turnaround times by 30%.</td>
   </tr>
   <tr>
-    <td><code>2017–2021</code></td>
+    <td><code>2017–&#8288;2021</code></td>
     <td><b>BSc in Computer Engineering</b>, Universidad de Burgos (UBU)</td>
   </tr>
 </table>
